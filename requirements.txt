@@ -12,3 +12,5 @@ fuzzywuzzy
 python-Levenshtein 
 pickle-mixin
 certifi
+gunicorn
+uvicorn
