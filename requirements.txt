@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+flask
+flask-cors
+pandas
+numpy
+opencv-python
+requests
+easyocr
+spellchecker
+fuzzywuzzy
+python-Levenshtein 
+pickle-mixin
+certifi
