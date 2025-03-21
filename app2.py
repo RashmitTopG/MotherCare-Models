@@ -11,6 +11,8 @@ import numpy as np
 import cv2
 from spellchecker import SpellChecker
 from fuzzywuzzy import process
+import os  # Add this
+
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -71,4 +73,5 @@ def ocr():
     return jsonify({"text": corrected_text})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.getenv("PORT", 8080))  # Use PORT from Render
+    app.run(host="0.0.0.0", port=port, debug=False)
