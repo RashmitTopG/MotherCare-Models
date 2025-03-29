@@ -7,9 +7,9 @@ numpy
 opencv-python
 requests
 easyocr
-spellchecker
+pyspellchecker  # ✅ Correct package
 fuzzywuzzy
-python-Levenshtein 
+python-Levenshtein
 pickle-mixin
 certifi
 gunicorn
